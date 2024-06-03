@@ -4,11 +4,11 @@ Hi 👋 My name is Solti Csongor Péter
 Software Developer Student
 --------------------------
 
-* 🌍  I'm based in Pilisvörösvár
+* 🌍  I'm based in Europe, Hungary, Pilisvörösvár
 * ✉️  You can contact me at [solti.csongor.peter@gmail.com](mailto:solti.csongor.peter@gmail.com)
 * 🧠  I'm learning HTML, CSS, Python and C#
 * 🤝  I'm open to collaborating on Team Projects
-* ⚡  As a ReFilc user i can prove that the app worth it!
+* ⚡  As a reFilc user i can prove that the app worth it!
 
 ### Skills
 
