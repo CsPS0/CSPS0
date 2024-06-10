@@ -34,6 +34,7 @@ src="https://img.shields.io/twitch/status/csps1?logo=twitchsx&style=for-the-badg
 
 <a href="https://github.com/SoltiCsongorPeter" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoltiCsongorPeter&langs_count=10&title_color=3382ed&text_color=ffffff&icon_color=22c55e&bg_color=27272a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
+<!--
 ### Support Me
 
 <ul style="list-style-type: none; margin: 0;">
@@ -41,3 +42,5 @@ src="https://img.shields.io/twitch/status/csps1?logo=twitchsx&style=for-the-badg
 <li style="display: inline-block; margin-right: 0.25rem;"><a href="https://www.buymeacoffee.com/solticsongorpeter"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"/></a></li>
 
 </ul>
+
+-->
