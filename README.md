@@ -7,7 +7,7 @@ Software Developer Student
 * 🌍  I'm based in Hungary, Pest County,
 * 🧠  I'm learning Software and Web development,
 * 🤝  I'm open to collaborating on Team Projects,
-* ⚡  As a ReFilc user i can prove that the app worth it!
+* ⚡  As a reFilc user i can prove that the app worth it!
 
 <a href="https://www.github.com/CsPS0" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/CsPS0?logo=github&style=for-the-badge&color=22c55e&labelColor=27272a" /></a>
