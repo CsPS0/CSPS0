@@ -1,4 +1,4 @@
-Hi 👋 My name is Csongor
+CsPS
 ========================
 
 Software Developer Student
