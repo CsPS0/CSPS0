@@ -7,7 +7,7 @@ Software Developer Student
 * 🌍  I'm based in Hungary, Pest County,
 * 🧠  I'm learning Software and Web development,
 * 🤝  I'm open to collaborating on Team Projects,
-* ⚡  As a ReFilc user i can prove that the app worth it!
+* ⚡  As a [reFilc](https://refilc.hu/) user i can prove that the app worth it!
 
 ### Skills
 
