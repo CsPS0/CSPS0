@@ -7,7 +7,7 @@ Software Developer Student
 * 🌍  I'm based in Hungary, Pest County,
 * 🧠  I'm learning Software and Web development,
 * 🤝  I'm open to collaborating on Team Projects,
-* ⚡  As a [firka](https://firka.app/downloads) user i can say, it's worth a try!
+* ⚡  As a [Firka Napló](https://firka.app/downloads) user i can say, it's worth a try!
 
 ### Skills
 
