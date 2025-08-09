@@ -1,5 +1,5 @@
 # 💫 About Me:
-🌍  I'm based in Hungary, Pest County,<br>🧠  I'm learning Software and Web development,<br>🤝  I'm open to collaborating on Team Projects,<br>⚡  As a [Firka Napló](https://firka.app/downloads) user i can say, it's worth a try!
+🌍  I'm based in Hungary, Pest County,<br>🧠  I'm learning Software and Web development,<br>🤝  I'm open to collaborating on Team Projects,<br>⚡  As a [Firka Napló](https://firka.app/) user i can say, it's worth a try!
 
 
 ## 🌐 Socials:
