@@ -27,17 +27,9 @@ Hi, I'm a Software Developer and Tester student currently learning in [BMSZC Neu
 <img align="left" alt="Arduino" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Bash" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" style="padding-right:10px;" />
 <img align="left" alt="MySQL" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" style="padding-right:10px;" />
-
----
-
-<details>
-    <summary><h3>📚 Currently Learning</h3></summary>
-    <ul>
-        <li>Advanced Web Development & Full-Stack Development</li>
-        <li>Cloud Technologies (Docker, Container Orchestration)</li>
-        <li>Software Testing & QA Best Practices</li>
-    </ul>
-</details>
+<br />
+<br />
+<br />
 
 ---
 
