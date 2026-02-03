@@ -2,7 +2,7 @@
 
 **`Code Slayer (Developer/Gamer/Hiker)`**
 
-Hi, I'm a Software Developer and Tester student currently learning in [BMSZC Neumann János Informatikai Technikum](https://neumann.bmszc.hu/). I do follow modern trends, so I use AI tools and Agents, but because I know Vibe Coding isn't proper learning, I don't use them like a Millitary Commander, because AI can be misleading sometimes. In most of my time I only code school-related stuff, however I have some personal work, like my Hello-World project, where I try to learn every programming language and their basic syntax, which is the "Hello, World!" catchphrase. Also, I'm a completionalist, so whenever I can't do something for 100%, I get so worried. -> I try to 100% Achievements all my games actually.
+Hi, I'm a Software Developer and Tester student currently learning in [BMSZC Neumann János Informatikai Technikum](https://neumann.bmszc.hu/). I do follow modern trends, so I use AI tools and Agents, but because I know Vibe Coding isn't proper learning, I don't use them like a Millitary Commander, because AI can be misleading sometimes. In most of my time I only code school-related stuff, however I have some personal work, like my [Hello-World](https://github.com/CsPS0/Hello-World) project, where I try to learn every programming language and their basic syntax, which is the "Hello, World!" catchphrase. Also, I'm a completionalist, so whenever I can't do something for 100%, I get so worried. -> I try to 100% Achievements all my games actually.
 
 ---
 
