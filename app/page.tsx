@@ -1,52 +1,27 @@
 import Link from "next/link";
 
-const projects = [
-  {
-    name: "Hello-World",
-    desc: "'Hello, World!' in 140+ programming languages, from Assembly to Zig.",
-    stack: ["Multi-language"],
-    repo: "https://github.com/CsPS0/Hello-World",
-    live: "https://csps0.github.io/Hello-World/",
-  },
-  {
-    name: "Console-UNO",
-    desc: "A simple UNO game for the terminal, written in C# on .NET.",
-    stack: ["C#", ".NET"],
-    repo: "https://github.com/CsPS0/Console-UNO",
-    live: "https://csps0.github.io/Console-UNO/",
-  },
-  {
-    name: "MagyarTortenesekMindMap",
-    desc: "Interactive mind map visualising Hungarian political and public events from 2006 to 2026.",
-    stack: ["TypeScript"],
-    repo: "https://github.com/CsPS0/MagyarTortenesekMindMap",
-  },
-  {
-    name: "PDF-Processor",
-    desc: "OCR text extraction and password removal for PDFs.",
-    stack: ["HTML", "JavaScript"],
-    repo: "https://github.com/CsPS0/PDF-Processor",
-    live: "https://csps0.github.io/PDF-Processor/",
-  },
-  {
-    name: "pala",
-    desc: "Interactive terminal UI (TUI) for the Kréta e-napló system.",
-    stack: ["Dart"],
-    repo: "https://github.com/CsPS0/pala",
-  },
-  {
-    name: "Furnovskyland",
-    desc: "A website about the Great Furnovskyland.",
-    stack: ["JavaScript"],
-    repo: "https://github.com/CsPS0/WebSite-Furnovskyland",
-    live: "https://furnovskyland.vercel.app/en/",
-  },
-];
-
 const links = [
   ["GitHub", "https://github.com/CsPS0"],
   ["Email", "mailto:solti.csongor.peter@gmail.com"],
+  ["All my links", "https://yoursit.ee/csps"],
+  ["My school", "https://neumann.bmszc.hu/"],
 ];
+
+const about = [
+  ["Studying", "Software developer and tester at BMSZC Neumann János Informatikai Technikum."],
+  ["Building", "Web and desktop apps with Next.js, TypeScript, .NET and AvaloniaUI."],
+  ["Projects so far", "Full-stack web dashboards, interactive maps and desktop software."],
+  ["Side project", "Hello-World, the same small program in as many languages as I can, to learn their basic syntax."],
+  ["How I work", "I go for 100% in everything, from learning a framework to clearing every achievement in a game."],
+];
+
+const pages = [
+  ["Projects", "What I've built, with code and live links.", "/projects"],
+  ["For hirers", "The short version, plus a way to contact me.", "/hire"],
+  ["Favorites", "Games, movies, series, books and music.", "/favorites"],
+];
+
+const link = "underline underline-offset-4 hover:text-white";
 
 export default function Home() {
   return (
@@ -59,15 +34,11 @@ export default function Home() {
         <p className="mt-4 text-lg text-zinc-400">
           Software developer and tester student from Hungary. I build web and
           desktop apps with Next.js, TypeScript and .NET, and I like to finish
-          what I start.
+          what I start. Outside of code I game and hike.
         </p>
-        <nav className="mt-6 flex gap-4">
+        <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-2">
           {links.map(([label, href]) => (
-            <a
-              key={label}
-              href={href}
-              className="underline underline-offset-4 hover:text-white"
-            >
+            <a key={label} href={href} className={link}>
               {label}
             </a>
           ))}
@@ -75,60 +46,71 @@ export default function Home() {
       </header>
 
       <section className="mt-16">
-        <h2 className="text-2xl font-semibold">Projects</h2>
-        <ul className="mt-6 grid gap-4 sm:grid-cols-2">
-          {projects.map((p) => (
-            <li
-              key={p.name}
-              className="flex flex-col rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition hover:border-zinc-600"
-            >
-              <h3 className="font-semibold">{p.name}</h3>
-              <p className="mt-2 flex-1 text-sm text-zinc-400">
-                {p.desc}
-              </p>
-              <p className="mt-3 font-mono text-xs text-zinc-500">
-                {p.stack.join(" · ")}
-              </p>
-              <div className="mt-3 flex gap-4 text-sm">
-                <a href={p.repo} className="underline underline-offset-4">
-                  Code
-                </a>
-                {p.live && (
-                  <a href={p.live} className="underline underline-offset-4">
-                    Live
-                  </a>
+        <h2 className="text-2xl font-semibold">About</h2>
+        <dl className="mt-6 rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
+          {about.map(([k, v]) => (
+            <div key={k} className="border-b border-zinc-800 py-3 first:pt-0 last:border-0 last:pb-0">
+              <dt className="font-mono text-xs uppercase tracking-widest text-zinc-500">{k}</dt>
+              <dd className="mt-1 text-sm text-zinc-300">
+                {k === "Side project" ? (
+                  <>
+                    <a href="https://github.com/CsPS0/Hello-World" className={link}>
+                      Hello-World
+                    </a>
+                    , the same small program in as many languages as I can, to
+                    learn their basic syntax.
+                  </>
+                ) : (
+                  v
                 )}
-              </div>
+              </dd>
+            </div>
+          ))}
+        </dl>
+
+        <details className="group mt-4 rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
+          <summary className="cursor-pointer font-semibold marker:text-zinc-500">
+            Why I chose programming
+          </summary>
+          <div className="mt-4 space-y-4 text-sm leading-6 text-zinc-400">
+            <p>
+              I got into IT because I wanted to know how technical things work
+              under the hood, and gaming was only part of that. I used
+              open-source tools and kept digging past the surface-level stuff
+              you find on YouTube, and I stayed away from piracy. I started
+              learning programming in 8th grade, at about 12. There was no AI
+              or LLM boom yet, and software development looked like a good
+              career with a strong job market.
+            </p>
+            <p>
+              A year later, in 9th grade, ChatGPT 3.5 came out and the
+              entry-level market felt like it collapsed. That showed me how
+              fast AI can change things, so I widened my skills and started
+              learning computer networks too. I wanted a base that would hold
+              up whatever happens next.
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <section className="mt-16">
+        <h2 className="text-2xl font-semibold">Explore</h2>
+        <ul className="mt-6 grid gap-4 sm:grid-cols-3">
+          {pages.map(([title, desc, href]) => (
+            <li key={href}>
+              <Link
+                href={href}
+                className="group flex h-full flex-col rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition hover:border-zinc-400"
+              >
+                <span className="font-semibold">{title}</span>
+                <span className="mt-2 flex-1 text-sm text-zinc-400">{desc}</span>
+                <span className="mt-3 text-zinc-500 transition group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </Link>
             </li>
           ))}
         </ul>
-      </section>
-
-      <Link
-        href="/favorites"
-        className="group mt-16 flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 transition hover:border-zinc-400"
-      >
-        <span>
-          <span className="block font-mono text-xs uppercase tracking-widest text-zinc-500">
-            Off the clock
-          </span>
-          <span className="mt-1 block text-xl font-semibold">My favorites</span>
-          <span className="mt-1 block text-sm text-zinc-400">
-            Games, movies, series, books and music.
-          </span>
-        </span>
-        <span className="text-2xl text-zinc-500 transition group-hover:translate-x-1 group-hover:text-white">
-          →
-        </span>
-      </Link>
-
-      <section className="mt-16">
-        <h2 className="text-2xl font-semibold">About</h2>
-        <p className="mt-4 text-zinc-400">
-          I study at BMSZC Neumann János Informatikai Technikum. I started
-          programming at 12. When AI began changing the entry-level job market,
-          I added computer networking so my skills cover more than code.
-        </p>
       </section>
     </main>
   );
