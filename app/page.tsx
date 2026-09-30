@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const projects = [
   {
     name: "Hello-World",
@@ -54,7 +56,7 @@ export default function Home() {
         <h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
           Solti Csongor Péter
         </h1>
-        <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="mt-4 text-lg text-zinc-400">
           Software Developer &amp; Tester student. Developer, gamer, hiker.
           I build with Next.js, TypeScript and .NET, and I go for 100% in
           everything I do.
@@ -64,7 +66,7 @@ export default function Home() {
             <a
               key={label}
               href={href}
-              className="underline underline-offset-4 hover:text-zinc-500"
+              className="underline underline-offset-4 hover:text-white"
             >
               {label}
             </a>
@@ -78,10 +80,10 @@ export default function Home() {
           {projects.map((p) => (
             <li
               key={p.name}
-              className="flex flex-col rounded-xl border border-zinc-200 p-5 dark:border-zinc-800"
+              className="flex flex-col rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition hover:border-zinc-600"
             >
               <h3 className="font-semibold">{p.name}</h3>
-              <p className="mt-2 flex-1 text-sm text-zinc-600 dark:text-zinc-400">
+              <p className="mt-2 flex-1 text-sm text-zinc-400">
                 {p.desc}
               </p>
               <p className="mt-3 font-mono text-xs text-zinc-500">
@@ -102,9 +104,27 @@ export default function Home() {
         </ul>
       </section>
 
+      <Link
+        href="/favorites"
+        className="group mt-16 flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 transition hover:border-zinc-400"
+      >
+        <span>
+          <span className="block font-mono text-xs uppercase tracking-widest text-zinc-500">
+            Off the clock
+          </span>
+          <span className="mt-1 block text-xl font-semibold">My favorites</span>
+          <span className="mt-1 block text-sm text-zinc-400">
+            Games, movies, series, books and music.
+          </span>
+        </span>
+        <span className="text-2xl text-zinc-500 transition group-hover:translate-x-1 group-hover:text-white">
+          →
+        </span>
+      </Link>
+
       <section className="mt-16">
         <h2 className="text-2xl font-semibold">About</h2>
-        <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+        <p className="mt-4 text-zinc-400">
           I study at BMSZC Neumann János Informatikai Technikum. I started
           programming at 12, and after seeing how fast AI changes the job
           market I added computer networking to my skills to stay versatile.
