@@ -57,9 +57,9 @@ export default function Home() {
           Solti Csongor Péter
         </h1>
         <p className="mt-4 text-lg text-zinc-400">
-          Software Developer &amp; Tester student. Developer, gamer, hiker.
-          I build with Next.js, TypeScript and .NET, and I go for 100% in
-          everything I do.
+          Software developer and tester student from Hungary. I build web and
+          desktop apps with Next.js, TypeScript and .NET, and I like to finish
+          what I start.
         </p>
         <nav className="mt-6 flex gap-4">
           {links.map(([label, href]) => (
@@ -126,8 +126,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">About</h2>
         <p className="mt-4 text-zinc-400">
           I study at BMSZC Neumann János Informatikai Technikum. I started
-          programming at 12, and after seeing how fast AI changes the job
-          market I added computer networking to my skills to stay versatile.
+          programming at 12. When AI began changing the entry-level job market,
+          I added computer networking so my skills cover more than code.
         </p>
       </section>
     </main>
